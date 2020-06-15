@@ -8,31 +8,46 @@ module.exports = [
 		rewarn_timeout: 10
 	},
 
-/*
-	// Blade Draw Reset
+		//Traverse buff expiring
 	{
-		type: 'Reset',
-		skills: [290100, 370100], // normal & deadly gamble version of blade draw
-		message: '{icon} Reset'
+        type: 'Expiring',
+		target: 'Self',
+        abnormalities: [101300,101301], 
+        message: '{icon}T-cut {duration} ',
+		time_remaining: [5, 2, 1]
+    },
+	
+       //DG Expiring
+    {
+	   type: 'Expiring',
+	   target: 'Self',
+	   skills: 200100,
+	   abnormalities: [100811,100801], 
+	   message: '{icon} Expiring {duration} ',
+	   time_remaining: [5]
+    },
+	
+     // Decreases Endurance Added
+	{
+		type: 'added',
+		target: 'MyBoss',
+		abnormalities: 101210,
+		message: 'Debuff RETARD'
 	},
-*/
+	  // Decreases Endurance, notify at 12 and 6 seconds remaining
+	{
+		type: 'expiring',
+		target: 'MyBoss',
+		abnormalities: 101210,
+		message: 'Debuff RETARD',
+		time_remaining: [5,3,1]
+	},
+	  // Decreases Endurance
+	{
+		type: 'removed',
+		target: 'MyBoss',
+		abnormalities: 101210,
+		message: 'Debuff RETARD'
+	},
 
-/*
-	// Vergos Aggro Debuff
-   {
-		type: 'AddedOrRefreshed',
-		target: 'PartyIncludingSelf',
-		abnormalities: 950023,
-		message: '{name} has {stacks} stack(s)',
-		required_stacks: 1
-	},
-
-	// Vergos Aggro Debuff Expire
-   {
-		type: 'Removed',
-		target: 'PartyIncludingSelf',
-		abnormalities: 950023,
-		message: '{name}\'s stacks expired'
-	},
-*/
 ]
