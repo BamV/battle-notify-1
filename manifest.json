@@ -1,6 +1,6 @@
 {
     "files": {
-        "README.md": "7a000a858d461b007ecd7d70411443bf630bb3816b9755e3b82b2c1a9c01ccaa",
+        "README.md": "f11c58fd6a353935bb2a02bf362327373bbc837c4234cc60236921cce7b22ebb",
         "config/archer.js": "eccc097c8e5f3e7182e9dbb7ae44050ebe762bd03c3d823019736aafe8d18960",
         "config/berserker.js": "68ed2bf5bd60d2bc4247db92cc0cdbf70ea978acdee96b0926f208aab2dbb0de",
         "config/brawler.js": "7254afc8f6bdda744d10a63279596403fe9d51226b1767a182b1e8c8867c1a7f",
@@ -43,7 +43,7 @@
         "S_EACH_SKILL_RESULT": [13,14],
         "S_LEAVE_PARTY": "event",
         "S_LEAVE_PARTY_MEMBER": 2,
-        "S_LOAD_TOPO": ["event",3],
+        "S_LOAD_TOPO": [3,"event"],
         "S_LOGIN": ["event",13,14],
         "S_NPC_STATUS": 2,
         "S_PARTY_MEMBER_LIST": 7,

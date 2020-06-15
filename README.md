@@ -185,6 +185,3 @@ You can use the following text in your string and the module will replace it wit
 - `{duration}` Display the time remaining on the cooldown, in seconds. (e.g. `5s`)
 - `{icon}` Display the icon of the skill or item in question.
 
-## Planned Features
-- Boss mechanic events (e.g. P3 Vergos debuffs)
-- In-game commands (on, off, ...)
