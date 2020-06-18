@@ -153,20 +153,7 @@ module.exports = [
 		abnormalities: 6001,
 		message: '{icon} up'
 	},
-	{
-        type: 'Expiring',
-		target: 'Self',
-        abnormalities: 6001, 
-        message: '{icon} ready in 10',
-		time_remaining: [-45]
-    },
-	{
-        type: 'Expiring',
-		target: 'Self',
-        abnormalities: 6001, 
-        message: '{icon} ready in 5',
-		time_remaining: [-50]
-    },
+
 	{
         type: 'Expiring',
 		target: 'Self',
@@ -182,20 +169,7 @@ module.exports = [
 		abnormalities: 6003,
 		message: '{icon} up'
 	},
-	{
-        type: 'Expiring',
-		target: 'Self',
-        abnormalities: 6003, 
-        message: '{icon} ready in 10',
-		time_remaining: [-45]
-    },
-	{
-        type: 'Expiring',
-		target: 'Self',
-        abnormalities: 6003, 
-        message: '{icon} ready in 5',
-		time_remaining: [-50]
-    },
+
 	{
         type: 'Expiring',
 		target: 'Self',
@@ -211,20 +185,7 @@ module.exports = [
 		abnormalities: 6012,
 		message: '{icon} up'
 	},
-	{
-        type: 'Expiring',
-		target: 'Self',
-        abnormalities: 6012, 
-        message: '{icon} ready in 10',
-		time_remaining: [-45]
-    },
-	{
-        type: 'Expiring',
-		target: 'Self',
-        abnormalities: 6012, 
-        message: '{icon} ready in 5',
-		time_remaining: [-50]
-    },
+
 	{
         type: 'Expiring',
 		target: 'Self',
@@ -240,20 +201,7 @@ module.exports = [
 		abnormalities: 6017,
 		message: '{icon} up'
 	},
-	{
-        type: 'Expiring',
-		target: 'Self',
-        abnormalities: 6017, 
-        message: '{icon} ready in 10',
-		time_remaining: [-45]
-    },
-	{
-        type: 'Expiring',
-		target: 'Self',
-        abnormalities: 6017, 
-        message: '{icon} ready in 5',
-		time_remaining: [-50]
-    },
+
 	{
         type: 'Expiring',
 		target: 'Self',
@@ -269,20 +217,7 @@ module.exports = [
 		abnormalities: 6025,
 		message: '{icon} up'
 	},
-	{
-        type: 'Expiring',
-		target: 'Self',
-        abnormalities: 6025, 
-        message: '{icon} ready in 10',
-		time_remaining: [-45]
-    },
-	{
-        type: 'Expiring',
-		target: 'Self',
-        abnormalities: 6025, 
-        message: '{icon} ready in 5',
-		time_remaining: [-50]
-    },
+
 	{
         type: 'Expiring',
 		target: 'Self',
@@ -298,20 +233,7 @@ module.exports = [
 		abnormalities: 6040,
 		message: '{icon} up'
 	},
-	{
-        type: 'Expiring',
-		target: 'Self',
-        abnormalities: 6040, 
-        message: '{icon} ready in 10',
-		time_remaining: [-45]
-    },
-	{
-        type: 'Expiring',
-		target: 'Self',
-        abnormalities: 6040, 
-        message: '{icon} ready in 5',
-		time_remaining: [-50]
-    },
+
 	{
         type: 'Expiring',
 		target: 'Self',
@@ -330,20 +252,7 @@ module.exports = [
 		abnormalities: 6002,
 		message: '{icon} up'
 	},
-	{
-        type: 'Expiring',
-		target: 'Self',
-        abnormalities: 6002, 
-        message: '{icon} ready in 10',
-		time_remaining: [-45]
-    },
-	{
-        type: 'Expiring',
-		target: 'Self',
-        abnormalities: 6002, 
-        message: '{icon} ready in 5',
-		time_remaining: [-50]
-    },
+
 	{
         type: 'Expiring',
 		target: 'Self',
@@ -359,20 +268,7 @@ module.exports = [
 		abnormalities: 6004,
 		message: '{icon} up'
 	},
-	{
-        type: 'Expiring',
-		target: 'Self',
-        abnormalities: 6004, 
-        message: '{icon} ready in 10',
-		time_remaining: [-45]
-    },
-	{
-        type: 'Expiring',
-		target: 'Self',
-        abnormalities: 6004, 
-        message: '{icon} ready in 5',
-		time_remaining: [-50]
-    },
+
 	{
         type: 'Expiring',
 		target: 'Self',
@@ -388,20 +284,7 @@ module.exports = [
 		abnormalities: 6013,
 		message: '{icon} up'
 	},
-	{
-        type: 'Expiring',
-		target: 'Self',
-        abnormalities: 6013, 
-        message: '{icon} ready in 10',
-		time_remaining: [-45]
-    },
-	{
-        type: 'Expiring',
-		target: 'Self',
-        abnormalities: 6013, 
-        message: '{icon} ready in 5',
-		time_remaining: [-50]
-    },
+
 	{
         type: 'Expiring',
 		target: 'Self',
@@ -417,20 +300,7 @@ module.exports = [
 		abnormalities: 6018,
 		message: '{icon} up'
 	},
-	{
-        type: 'Expiring',
-		target: 'Self',
-        abnormalities: 6018, 
-        message: '{icon} ready in 10',
-		time_remaining: [-45]
-    },
-	{
-        type: 'Expiring',
-		target: 'Self',
-        abnormalities: 6018, 
-        message: '{icon} ready in 5',
-		time_remaining: [-50]
-    },
+
 	{
         type: 'Expiring',
 		target: 'Self',
@@ -446,20 +316,7 @@ module.exports = [
 		abnormalities: 6026,
 		message: '{icon} up'
 	},
-	{
-        type: 'Expiring',
-		target: 'Self',
-        abnormalities: 6026, 
-        message: '{icon} ready in 10',
-		time_remaining: [-45]
-    },
-	{
-        type: 'Expiring',
-		target: 'Self',
-        abnormalities: 6026, 
-        message: '{icon} ready in 5',
-		time_remaining: [-50]
-    },
+
 	{
         type: 'Expiring',
 		target: 'Self',
@@ -475,20 +332,7 @@ module.exports = [
 		abnormalities: 6041,
 		message: '{icon} up'
 	},
-	{
-        type: 'Expiring',
-		target: 'Self',
-        abnormalities: 6041, 
-        message: '{icon} ready in 10',
-		time_remaining: [-45]
-    },
-	{
-        type: 'Expiring',
-		target: 'Self',
-        abnormalities: 6041, 
-        message: '{icon} ready in 5',
-		time_remaining: [-50]
-    },
+
 	{
         type: 'Expiring',
 		target: 'Self',
@@ -506,27 +350,7 @@ module.exports = [
 		abnormalities: 30000019,
 		message: '{icon} up'
 	},
-	{
-        type: 'Expiring',
-		target: 'Self',
-        abnormalities: 30000019, 
-        message: '{icon} ready in 120',
-		time_remaining: [-60]
-    },
-	{
-        type: 'Expiring',
-		target: 'Self',
-        abnormalities: 30000019, 
-        message: '{icon} ready in 60',
-		time_remaining: [-120]
-    },
-	{
-        type: 'Expiring',
-		target: 'Self',
-        abnormalities: 30000019, 
-        message: '{icon} ready in 10',
-		time_remaining: [-170]
-    },
+
 	{
         type: 'Expiring',
 		target: 'Self',
@@ -542,27 +366,7 @@ module.exports = [
 		abnormalities: 30000020,
 		message: '{icon} up'
 	},
-	{
-        type: 'Expiring',
-		target: 'Self',
-        abnormalities: 30000020, 
-        message: '{icon} ready in 120',
-		time_remaining: [-60]
-    },
-	{
-        type: 'Expiring',
-		target: 'Self',
-        abnormalities: 30000020, 
-        message: '{icon} ready in 60',
-		time_remaining: [-120]
-    },
-	{
-        type: 'Expiring',
-		target: 'Self',
-        abnormalities: 30000020, 
-        message: '{icon} ready in 10',
-		time_remaining: [-170]
-    },
+
 	{
         type: 'Expiring',
 		target: 'Self',

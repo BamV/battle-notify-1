@@ -14,7 +14,7 @@ module.exports = [
 		target: 'Self',
         abnormalities: [101300,101301], 
         message: '{icon}T-cut {duration} ',
-		time_remaining: [5, 2, 1]
+		time_remaining: [5]
     },
 	
        //DG Expiring
@@ -40,7 +40,7 @@ module.exports = [
 		target: 'MyBoss',
 		abnormalities: 101210,
 		message: 'Debuff RETARD',
-		time_remaining: [5,3,1]
+		time_remaining: [5]
 	},
 	  // Decreases Endurance
 	{
