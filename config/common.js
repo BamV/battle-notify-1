@@ -39,6 +39,17 @@ module.exports = [
 		abnormalities: [200701, 200700],
 		message: '{icon} {duration}'
 	},
+
+	// Pet Buff
+	{
+		type: 'Expiring',
+		target: 'Self',
+        abnormalities: [13009, 13013, 13015, 13016, 13017, 13018, 13019, 13020, 13021, 13022, 13023, 13024, 13025, 
+		13026, 13027, 13028, 13029, 13030, 13031, 13032, 13033, 13034, 13035, 13036, 13037, 13054, 13089, 13095, 13137], 
+        message: '{icon} {duration}',
+		time_remaining: [2, 5, 10]
+	},
+
 /*
 	// Adrenaline Rush  Expiring, notify at 6 seconds remaining
 	{
@@ -72,7 +83,7 @@ module.exports = [
 		message: '{icon} {duration}'
 	},
 	
-/*	// Mystic Vengeance  Added
+	// Mystic Vengeance  Added
 	{
 		type: 'added',
 		target: 'Self',
@@ -95,7 +106,7 @@ module.exports = [
 		abnormalities: [806021, 806021],
 		message: '{icon} {duration}'
 	},
-*/
+
 	// Kaia  Added
 	{
 		type: 'added',
@@ -373,5 +384,21 @@ module.exports = [
         abnormalities: 30000020, 
         message: '{icon} ready in 5',
 		time_remaining: [-175]
-    }
+    },
+
+	// Lumikan Immunity
+    {
+		type: 'Added',
+		target: 'Self',
+		abnormalities: [31040003, 32040003],
+		message: '{icon} {duration}'
+	},
+	
+	// Lumikan HM target
+    {
+		type: 'Added',
+		target: 'PartyIncludingSelf',
+		abnormalities: 32040007,
+		message: '{icon} {name}'
+	}
 ]

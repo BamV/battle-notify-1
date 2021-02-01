@@ -34,4 +34,19 @@ module.exports = [
 		message: '{icon} CD {duration}',
 		time_remaining: [3]
 	},	
+
+	// Cyclone reset
+   {
+        type: 'Reset',
+        skills: 101100,
+        message: '{icon} reset!'
+    },
+
+	// Lethal Strike reset
+   {
+        type: 'Reset',
+        skills: 180600,
+        message: '{icon} reset!'
+    },
+
 ]
