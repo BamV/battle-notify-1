@@ -40,6 +40,14 @@ module.exports = [
 		message: '{icon} {duration}'
 	},
 
+	// Hurricane Added
+	{
+		type: 'added',
+		target: 'MyBoss',
+		abnormalities: 60010,
+		message: 'Hurricane {duration}'
+	},
+
 	// Pet Buff
 	{
 		type: 'Expiring',
@@ -82,8 +90,9 @@ module.exports = [
 		abnormalities: [702004],
 		message: '{icon} {duration}'
 	},
-	
-	// Mystic Vengeance  Added
+
+
+/*	// Mystic Vengeance  Added
 	{
 		type: 'added',
 		target: 'Self',
@@ -106,6 +115,7 @@ module.exports = [
 		abnormalities: [806021, 806021],
 		message: '{icon} {duration}'
 	},
+ */
 
 	// Kaia  Added
 	{
