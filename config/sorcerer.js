@@ -8,4 +8,11 @@ module.exports = [
         message: '{icon} Expiring {duration} ',
         time_remaining: [5]
      },
+
+      // Lightning Strike reset
+   {
+      type: 'Reset',
+      skills: 111100, 
+      message: '{icon} reset!'
+  },
 ]
